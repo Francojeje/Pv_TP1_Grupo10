@@ -5,6 +5,6 @@ Desarrollo Tp1
 
     1. Santiago Rodrigo Vilte - usuario: SantiagoVilte
     2. Franco Manuel Almaraz - usuario: Francojeje
-    3.
+    3. Alejandro Imanol Cruz - usuario: alejandro1611
     4.
     5.
