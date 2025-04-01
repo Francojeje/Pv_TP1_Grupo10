@@ -3,12 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Museos</title>
+    <title>Museos de Brasil  </title>
+    <link rel="shortcut icon" href="bandera-de-brasil.png">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="museo.css">
 </head>
 <h1 style="color: rgb(0, 0, 0); text-align: center; font-size: 50px;">Museos de Brasil</h1>
+<h2 style="color: rgb(0, 0, 0); text-align: center; font-size: 30px;">1. Museo do Amanha</h2>
 <body>
-    <a href=""></a>
+    <section class="section">
+        <div class="slider">
+            <div class="slide">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+
+                <div class="st first">
+                    <img src="/Pv_TP1_Grupo10-1/Imagenes museo/pic(1).jpg" alt="">
+                </div>
+
+                <div class="st">
+                    <img src="/Pv_TP1_Grupo10-1/Imagenes museo/pic(2).jpg" alt="">
+                </div>
+
+                <div class="st">
+                    <img src="/Pv_TP1_Grupo10-1/Imagenes museo/pic(3).jpg" alt="">
+                </div>
+
+                <div class="st">
+                    <img src="/Pv_TP1_Grupo10-1/Imagenes museo/pic(4).jpg" alt="">
+                </div>
+                
+                <div class="st">
+                    <img src="/Pv_TP1_Grupo10-1/Imagenes museo/pic(5).jpg" alt="">
+                </div>
+
+                <div class="st">
+                    <img src="/Pv_TP1_Grupo10-1/Imagenes museo/pic(6).jpg" alt="">
+                </div>
+                <div class="nav-auto">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                    <div class="a-b4"></div>
+                    <div class="a-b5"></div>
+                    <div class="a-b6"></div>
+                </div>
+            </div>
+            <div class="nav-m">
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked=true;
+            counter++;
+            if(counter > 6){
+                counter = 1;
+            }
+        },5000);
+    </script>
     
 </body>
 </html>
