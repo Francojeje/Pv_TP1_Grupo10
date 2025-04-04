@@ -1,9 +1,9 @@
 body{
-    background-color: beige;
+    background-color: rgb(148, 148, 62);
 }
 .nav {
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(204, 165, 106);
     height: 20px;
 }
 .nav ul {
@@ -14,35 +14,23 @@ body{
     gap: 50px;
     
 }
-#futbol{
+.der{
     width: 70%;
     float: inline-start;
+}
+.izq{
+    width: 70%;
+    float: inline-end;
+}
+
+h2{
+    text-decoration: underline;
+    color: rgb(4, 94, 44);
+}
+h3{
+    color: rgb(112, 16, 16);
 }
 #playas{
-    width: 70%;
-    float: inline-end;
-}
-#cristo{
-    width: 70%;
-    float: inline-start;
-}
-#beto{
-    width: 70%;
-    float: inline-end;
-}
-#comidas{
-    width: 70%;
-    float: inline-start;
-}
-#cataratas{
-    width: 70%;
-    float: inline-end;
-}
-#amazonas{
-    width: 70%;
-    float: inline-start;
-}
-#carnaval{
-    width: 70%;
-    float: inline-end;
+    text-align: left;
+    justify-content: flex-start;
 }
