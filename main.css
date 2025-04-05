@@ -80,11 +80,15 @@ body{
     padding: 5px;
 }
 .der{
+    flex-direction: row;
+    justify-content: space-between;
     float: inline-start;
     align-items: start;
     position: relative;
 }
 .izq{
+    flex-direction: row;
+    justify-content: space-between;
     float: inline-end;
     align-items: end;
     position: relative;
