@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(148, 148, 62);
+    background-color: rgb(228, 214, 214);
 }
 
 *{
@@ -23,15 +23,72 @@ body{
     gap: 50px;
     
 }
+.futbol{
+    background-color: rgb(228, 199, 162);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+}
+.playa{
+    background-color: rgb(255, 211, 152);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+}
+.cristo{
+    background-color: rgb(185, 156, 114);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+}
+.beto{
+    background-color: rgb(228, 199, 162);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+} 
+.gastronomia{
+    background-color: rgb(255, 211, 152);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+}
+.cataratas{
+    background-color: rgb(185, 156, 114);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+}
+.amazonas{
+    background-color: rgb(228, 199, 162);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+} 
+.carnaval{
+    background-color: rgb(255, 211, 152);
+    margin: 5px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 5px;
+}
 .der{
-    width: 70%;
     float: inline-start;
+    align-items: start;
+    position: relative;
 }
 .izq{
-    width: 70%;
     float: inline-end;
+    align-items: end;
+    position: relative;
 }
-
 h2{
     text-decoration: underline;
     color: rgb(4, 94, 44);
@@ -39,10 +96,16 @@ h2{
 h3{
     color: rgb(112, 16, 16);
 }
-#playas{
+#lista_playas{
     text-align: left;
     justify-content: flex-start;
 }
 .lista_amazonas{
     text-align: left;
+    justify-content: flex-start;
+}
+.lista_beto{
+    text-align: left;
+    justify-content: flex-start;
+    list-style-type: none;
 }
