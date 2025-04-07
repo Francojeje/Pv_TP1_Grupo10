@@ -12,3 +12,9 @@
 img{
     width: 20%;
 }
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;   
+    justify-content: center;
+} 
