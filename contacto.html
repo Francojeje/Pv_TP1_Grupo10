@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contacto.css">
+    <link rel="shortcut icon" href="logo.ico">
     <title>Contactanos</title>
 </head>
 <body >
-    
-        <form action="" id="contenedor">
-        <h1 style="text-align: center;color: rgb(197, 90, 90);">Formulario</h1>
-        <input type="text" name="Nombre" placeholder="Ingrese nombre">
-        <input type="email" placeholder="Ingrese email " style="margin: 5%;">
-        <textarea name="" id="" style=" margin: 5%; padding: 5%;"></textarea>
-        <button style="margin: 5%;">Enviar datos</button>
-        <p style="color: rgb(155, 70, 70);">Muchas Gracias!!</p>
-        </form>
-    
+    <form>
+        <h2>Contacto</h2>
+        <div class="input-group">
+            <label for="name">Nombre y Apellido: </label>
+            <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+
+            <label for="Numero">Telefono: </label>
+            <input type="tel" name="Numero" id="Numero" placeholder="+54....">
+
+            <label for="email">Correo electronico: </label>
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <label for="Mensaje">Mensaje: </label>
+            <textarea name="Mensaje" id="Mensaje" cols="30" rows="5" placeholder="Mensaje"></textarea>
+            
+            <div class="form-txt">
+                <a href="#">Politica de Privacidad</a>
+                <a href="#">Terminos y Condiciones</a>
+            </div>
+            <input class="btn" type="submit" value="Enviar">
+        </div>
+    </form>
 </body>
 </html>
