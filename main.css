@@ -13,7 +13,9 @@ body{
 .nav {
     display: flex;
     background-color: rgb(204, 165, 106);
-    height: 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
 }
 .nav ul {
     margin: 0 10px;
@@ -29,6 +31,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 .playa{
     background-color: rgb(255, 211, 152);
@@ -36,6 +41,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 .cristo{
     background-color: rgb(185, 156, 114);
@@ -43,6 +51,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 .beto{
     background-color: rgb(228, 199, 162);
@@ -50,6 +61,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 } 
 .gastronomia{
     background-color: rgb(255, 211, 152);
@@ -57,6 +71,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 .cataratas{
     background-color: rgb(185, 156, 114);
@@ -64,6 +81,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 .amazonas{
     background-color: rgb(228, 199, 162);
@@ -71,6 +91,9 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
 } 
 .carnaval{
     background-color: rgb(255, 211, 152);
@@ -78,20 +101,8 @@ body{
     border-radius: 10px;
     height: max-content;
     padding: 5px;
-}
-.der{
-    flex-direction: row;
-    justify-content: space-between;
-    float: inline-start;
-    align-items: start;
-    position: relative;
-}
-.izq{
-    flex-direction: row;
-    justify-content: space-between;
-    float: inline-end;
-    align-items: end;
-    position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 h2{
     text-decoration: underline;
