@@ -1,0 +1,11 @@
+*{
+    background-color:  rgb(228, 214, 214);   
+}
+.contenedor{
+    justify-content: center;
+    text-align: center;
+}
+.nav{
+    justify-content: center;
+    text-align: center;
+}
