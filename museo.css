@@ -1,9 +1,11 @@
 *{
-    background-color:  rgb(228, 214, 214);   
+    
 }
 .contenedor{
     justify-content: center;
     text-align: center;
+    width: 70%;
+    margin: auto;
 }
 .nav {
     display: flex;
@@ -22,4 +24,11 @@
 }
 img{
     width: 20%;
+}
+.museo{
+    background-color: bisque;
+}
+footer{
+    height: 100px;
+    background-color: rgb(122, 84, 84);
 }
