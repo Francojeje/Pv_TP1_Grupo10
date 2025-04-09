@@ -6,6 +6,7 @@
     text-align: center;
     width: 70%;
     margin: auto;
+    
 }
 .nav {
     display: flex;
@@ -22,11 +23,12 @@
     display: flex;
     gap: 50px;
 }
-img{
-    width: 20%;
-}
 .museo{
     background-color: bisque;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    
 }
 footer{
     height: 100px;
