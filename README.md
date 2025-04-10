@@ -8,4 +8,3 @@ Desarrollo Tp1
     3. Alejandro Imanol Cruz - usuario: alejandro1611
     4. Miranda Facundo David - usuario: MirandaFD0
     5. Jairo Pablo Cruz - usuario: Jairocruapu
-    6. jejeje
